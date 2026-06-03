@@ -4,7 +4,7 @@
 --- MOD_AUTHOR: [RadicaAprils, AutumnMood (it/she/they)]
 --- MOD_DESCRIPTION: Spectral cards but with the trans flag colours
 --- PREFIX: tspa
---- VERSION: 1.0.0
+--- VERSION: 1.1.0
 --- DEPENDENCIES: [malverk]
 
 
@@ -77,4 +77,9 @@ TexturePack{
         'tspa_joker'
     },
     localization = true
+}
+SMODS.Shader{
+    key = 'polychrome',
+    path = 'polychrome.fs',
+    prefix_config = { key = false },
 }
