@@ -3,6 +3,9 @@ return {
         dictionary = {
             k_spectrans = 'Spectrans Pack',
             k_spectrans_card = 'Spectrans'
+        },
+        labels = {
+            polychrome = 'Trans'
         }
     },
     descriptions = {
