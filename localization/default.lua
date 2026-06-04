@@ -157,6 +157,17 @@ return {
                         "start with a {C:spectral,T:c_hex}Hex{} card",
                     }
                 }
+            },
+            alt_tex_tspa_hrt = {
+                j_hit_the_road = {
+                    name = 'HRT',
+                    text = {
+                        "This Joker gains {X:mult,C:white} X#2# {} Mult",
+                        "for every {C:attention}Jack{} discarded",
+                        "this round",
+                        "{C:inactive}(Currently {X:mult,C:white} X#1# {C:inactive} Mult)"
+                    }
+                }
             }
         },
         texture_packs = {
