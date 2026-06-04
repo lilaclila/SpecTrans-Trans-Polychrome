@@ -5,4 +5,5 @@ This is a fork of SpecTrans by Eremel, adding the Polychrome shader override.
 This mod requires Lovely, Steamodded and Malverk to be installed.
 
 Original SpecTrans mod and art by RadicaAprils and AutumnMood, coded by Eremel.
-Polychrome shader by me :3
+HTR Alt Texture (HRT) by the lovely zebragoboom.
+Polychrome Trans reshade by Myself. 
