@@ -1,10 +1,10 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Trans Spectrals
 --- MOD_ID: TSpectrals
---- MOD_AUTHOR: [RadicaAprils, AutumnMood (it/she/they)]
+--- MOD_AUTHOR: [RadicaAprils, AutumnMood (it/she/they), LilacLilo (she/her), zebragoboom]
 --- MOD_DESCRIPTION: Spectral cards but with the trans flag colours
 --- PREFIX: tspa
---- VERSION: 1.1.0
+--- VERSION: 1.2.0
 --- DEPENDENCIES: [malverk]
  
  
