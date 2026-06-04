@@ -162,10 +162,10 @@ return {
                 j_hit_the_road = {
                     name = 'HRT',
                     text = {
-                        "This Joker gains {X:mult,C:white} X#2# {} Mult",
+                        "This Joker gains {X:mult,C:white} X#1# {} Mult",
                         "for every {C:attention}Jack{} discarded",
                         "this round",
-                        "{C:inactive}(Currently {X:mult,C:white} X#1# {C:inactive} Mult)"
+                        "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
                     }
                 }
             }
