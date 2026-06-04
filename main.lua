@@ -6,15 +6,15 @@
 --- PREFIX: tspa
 --- VERSION: 1.1.0
 --- DEPENDENCIES: [malverk]
-
-
+ 
+ 
 Malverk.badges.spectrans = function(self, card, badges)
     badges[#badges + 1] = create_badge(localize('k_spectrans'), get_type_colour(self or card.config, card), nil, 1.2)
 end
 Malverk.badges.spectrans_card = function(self, card, badges)
     badges[#badges + 1] = create_badge(localize('k_spectrans_card'), get_type_colour(self or card.config, card), nil, 1.2)
 end
-
+ 
 AltTexture{
     key = 'spectral',
     set = 'Spectral',
@@ -24,7 +24,7 @@ AltTexture{
     display_pos = 'c_trance',
     localization = true
 }
-
+ 
 AltTexture{
     key = 'boosters',
     set = 'Booster',
@@ -38,7 +38,7 @@ AltTexture{
     },
     localization = true
 }
-
+ 
 AltTexture{
     key = 'tags',
     set = 'Tag',
@@ -49,7 +49,7 @@ AltTexture{
     },
     localization = true
 }
-
+ 
 AltTexture{
     key = 'deck',
     set = 'Back',
@@ -58,7 +58,7 @@ AltTexture{
     original_sheet = true,
     localization = true
 }
-
+ 
 AltTexture{
     key = 'joker',
     set = 'Joker',
@@ -66,7 +66,15 @@ AltTexture{
     keys = {'j_banner','j_seance'},
     original_sheet = true
 }
-
+ 
+AltTexture{
+    key = 'hrt',
+    set = 'Joker',
+    path = 'HRT-TSpectrals.png',
+    keys = {'j_hit_the_road'},
+    localization = true
+}
+ 
 TexturePack{
     key = 'spectrans',
     textures = {
@@ -74,7 +82,8 @@ TexturePack{
         'tspa_boosters',
         'tspa_tags',
         'tspa_deck',
-        'tspa_joker'
+        'tspa_joker',
+        'tspa_hrt'
     },
     localization = true
 }
